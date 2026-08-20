@@ -1,15 +1,15 @@
 # Submission README
-
 ## Track Chosen
-
+### Track A: Fictional Domain Packet
 ## What I Built
-
+### I built a dashboard that compares different workflows both before and after changes were made. for each workflow, it measures the percentage of accepted outputs out of the total sessions completed and the average user rating. Note that there is another graph that also shows different workflows after changes, but that is with the traffic spike (refer to Data Issues Or Caveats I Noticed).
 ## Who It Is For
-
+### This is for the SignalDesk team to look and see how the changes affected the overall user experience to determine further action.
 ## Data Or Source Used
-
+### I used the sample-data/product_usage_events.csv provided from the domain-packet.md section.
 ## Assumptions I Made
-
+### For this data set, I assumed that the changes occurred after 08/04/2026 derived from the notes column. I also assumed that the accepted outputs were signs of a successful useage of the workflow.
 ## Data Issues Or Caveats I Noticed
-
+### The first thing that I noticed was that there was some blank cells in the data table. There was also some columns that where not properly capitalized (ex. the team column had some cells that were in lower case.) Lastly, there was a row that had a huge spike in sessions, which was also stated in the notes column.
 ## What I Would Do Next With More Time
+### If I had more time, I would look more into the flaged_for_review column and see the total amount of times each workflow was flagged before and after changes.
