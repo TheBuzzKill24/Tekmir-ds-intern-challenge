@@ -1,0 +1,893 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='e302ed1f5474f3c9cebcb56bd77113e353c1f481372a7ab8d92d774271776ccc' _.fcp.WorkbookFingerprinting.true...creator-author-id='e302ed1f5474f3c9cebcb56bd77113e353c1f481372a7ab8d92d774271776ccc' _.fcp.WorkbookFingerprinting.true...creator-license-type='free' _.fcp.WorkbookFingerprinting.true...creator-machine-id='7ddb12bc6bf419dda774ba393140aca1c162658e9bf038bf87d3f0795fda4580' _.fcp.WorkbookFingerprinting.true...license-type='free' _.fcp.WorkbookFingerprinting.true...machine-id='7ddb12bc6bf419dda774ba393140aca1c162658e9bf038bf87d3f0795fda4580' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='product_usage_events' inline='true' name='federated.1ewz4xw0vbg5wa1bbx9ki12lc081' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='product_usage_events' name='textscan.11po9g20qzc2a81c4upj71jrh8pj'>
+            <connection class='textscan' directory='C:/Users/miles/Documents/Tableau_stuff/ds-intern-challenge' filename='product_usage_events.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.11po9g20qzc2a81c4upj71jrh8pj' name='product_usage_events.csv' table='[product_usage_events#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='string' name='team' ordinal='1' />
+            <column datatype='string' name='workflow' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='integer' name='sessions' ordinal='4' />
+            <column datatype='integer' name='completed' ordinal='5' />
+            <column datatype='integer' name='accepted_output' ordinal='6' />
+            <column datatype='integer' name='flagged_for_review' ordinal='7' />
+            <column datatype='real' name='avg_minutes_saved' ordinal='8' />
+            <column datatype='real' name='median_confidence' ordinal='9' />
+            <column datatype='real' name='user_rating' ordinal='10' />
+            <column datatype='string' name='notes' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>team</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workflow</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[workflow]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>workflow</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sessions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sessions]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>sessions</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>completed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[completed]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>completed</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>accepted_output</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[accepted_output]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>accepted_output</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flagged_for_review</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[flagged_for_review]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>flagged_for_review</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_minutes_saved</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_minutes_saved]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>avg_minutes_saved</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>median_confidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[median_confidence]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>median_confidence</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[user_rating]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>user_rating</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>notes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[notes]</local-name>
+            <parent-name>[product_usage_events.csv]</parent-name>
+            <remote-alias>notes</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Percentage of Accepted Output' datatype='real' name='[Calculation_2246338548142082]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([accepted_output]) / SUM([completed])' />
+      </column>
+      <column caption='product_usage_events.csv' datatype='table' name='[__tableau_internal_object_id__].[product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C]' role='measure' type='quantitative' />
+      <column caption='Accepted Output' datatype='integer' name='[accepted_output]' role='measure' type='quantitative' />
+      <column caption='Avg Minutes Saved' datatype='real' name='[avg_minutes_saved]' role='measure' type='quantitative' />
+      <column caption='Completed' datatype='integer' name='[completed]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Flagged For Review' datatype='integer' name='[flagged_for_review]' role='measure' type='quantitative' />
+      <column caption='Median Confidence' datatype='real' name='[median_confidence]' role='measure' type='quantitative' />
+      <column caption='Notes' datatype='string' name='[notes]' role='dimension' type='nominal' />
+      <column caption='Sessions' datatype='integer' name='[sessions]' role='measure' type='quantitative' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+      <column caption='User Rating' datatype='real' name='[user_rating]' role='measure' type='quantitative' />
+      <column caption='Workflows' datatype='string' name='[workflow]' role='dimension' type='nominal' />
+      <column-instance column='[workflow]' derivation='None' name='[none:workflow:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:workflow:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Reply draft&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Feedback clustering&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Lead summary&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='date' />
+        <field-sort-custom-order field='team' />
+        <field-sort-custom-order field='workflow' />
+        <field-sort-custom-order field='source' />
+        <field-sort-custom-order field='sessions' />
+        <field-sort-custom-order field='completed' />
+        <field-sort-custom-order field='accepted_output' />
+        <field-sort-custom-order field='Calculation_2246338548142082' />
+        <field-sort-custom-order field='flagged_for_review' />
+        <field-sort-custom-order field='avg_minutes_saved' />
+        <field-sort-custom-order field='median_confidence' />
+        <field-sort-custom-order field='user_rating' />
+        <field-sort-custom-order field='notes' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='product_usage_events.csv' id='product_usage_events.csv_5F86F8BD10644746ABB0F6A6B8C3946C'>
+            <properties context=''>
+              <relation connection='textscan.11po9g20qzc2a81c4upj71jrh8pj' name='product_usage_events.csv' table='[product_usage_events#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='date' ordinal='0' />
+                  <column datatype='string' name='team' ordinal='1' />
+                  <column datatype='string' name='workflow' ordinal='2' />
+                  <column datatype='string' name='source' ordinal='3' />
+                  <column datatype='integer' name='sessions' ordinal='4' />
+                  <column datatype='integer' name='completed' ordinal='5' />
+                  <column datatype='integer' name='accepted_output' ordinal='6' />
+                  <column datatype='integer' name='flagged_for_review' ordinal='7' />
+                  <column datatype='real' name='avg_minutes_saved' ordinal='8' />
+                  <column datatype='real' name='median_confidence' ordinal='9' />
+                  <column datatype='real' name='user_rating' ordinal='10' />
+                  <column datatype='string' name='notes' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Quality of Workflows Before Changes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='product_usage_events' name='federated.1ewz4xw0vbg5wa1bbx9ki12lc081' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ewz4xw0vbg5wa1bbx9ki12lc081'>
+            <column caption='Percentage of Accepted Output' datatype='real' name='[Calculation_2246338548142082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([accepted_output]) / SUM([completed])' />
+            </column>
+            <column caption='Accepted Output' datatype='integer' name='[accepted_output]' role='measure' type='quantitative' />
+            <column-instance column='[user_rating]' derivation='Avg' name='[avg:user_rating:qk]' pivot='key' type='quantitative' />
+            <column caption='Completed' datatype='integer' name='[completed]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='None' name='[none:date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[team]' derivation='None' name='[none:team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[workflow]' derivation='None' name='[none:workflow:nk]' pivot='key' type='nominal' />
+            <column-instance column='[accepted_output]' derivation='Sum' name='[sum:accepted_output:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[completed]' derivation='Sum' name='[sum:completed:qk]' pivot='key' type='quantitative' />
+            <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+            <column caption='User Rating' datatype='real' name='[user_rating]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2246338548142082]' derivation='User' name='[usr:Calculation_2246338548142082:qk]' pivot='key' type='quantitative' />
+            <column caption='Workflows' datatype='string' name='[workflow]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' included-values='in-range'>
+            <min>#2026-08-01#</min>
+            <max>#2026-08-03#</max>
+          </filter>
+          <computed-sort column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' direction='DESC' using='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]' />
+          <slices>
+            <column>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='21' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' value='true' />
+            <format attr='text-format' field='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:team:nk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[avg:user_rating:qk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:accepted_output:qk]' />
+              <color column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:completed:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]</rows>
+        <cols>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]</cols>
+      </table>
+      <simple-id uuid='{9388CCB9-7C7E-4F7B-B5FF-F782FA48D89D}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Quality of Workflows After Changes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='product_usage_events' name='federated.1ewz4xw0vbg5wa1bbx9ki12lc081' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ewz4xw0vbg5wa1bbx9ki12lc081'>
+            <column caption='Percentage of Accepted Output' datatype='real' name='[Calculation_2246338548142082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([accepted_output]) / SUM([completed])' />
+            </column>
+            <column caption='Accepted Output' datatype='integer' name='[accepted_output]' role='measure' type='quantitative' />
+            <column-instance column='[user_rating]' derivation='Avg' name='[avg:user_rating:qk]' pivot='key' type='quantitative' />
+            <column caption='Completed' datatype='integer' name='[completed]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='None' name='[none:date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[notes]' derivation='None' name='[none:notes:nk]' pivot='key' type='nominal' />
+            <column-instance column='[team]' derivation='None' name='[none:team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[workflow]' derivation='None' name='[none:workflow:nk]' pivot='key' type='nominal' />
+            <column caption='Notes' datatype='string' name='[notes]' role='dimension' type='nominal' />
+            <column-instance column='[accepted_output]' derivation='Sum' name='[sum:accepted_output:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[completed]' derivation='Sum' name='[sum:completed:qk]' pivot='key' type='quantitative' />
+            <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+            <column caption='User Rating' datatype='real' name='[user_rating]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2246338548142082]' derivation='User' name='[usr:Calculation_2246338548142082:qk]' pivot='key' type='quantitative' />
+            <column caption='Workflows' datatype='string' name='[workflow]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' included-values='in-range'>
+            <min>#2026-08-04#</min>
+            <max>#2026-08-07#</max>
+          </filter>
+          <filter class='categorical' column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:notes:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:notes:nk]' />
+              <groupfilter function='member' level='[none:notes:nk]' member='&quot;traffic spike from demo account&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' direction='DESC' using='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]' />
+          <slices>
+            <column>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]</column>
+            <column>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:notes:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:team:nk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[avg:user_rating:qk]' />
+              <color column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:accepted_output:qk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:completed:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]</rows>
+        <cols>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]</cols>
+      </table>
+      <simple-id uuid='{4D3C2CDB-248A-4319-86E6-0BCE42A3FF15}' />
+    </worksheet>
+    <worksheet name='Sheet 2 (With Traffic Spike)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Quality of Workflows After Changes (With Traffic Spike)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='product_usage_events' name='federated.1ewz4xw0vbg5wa1bbx9ki12lc081' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ewz4xw0vbg5wa1bbx9ki12lc081'>
+            <column caption='Percentage of Accepted Output' datatype='real' name='[Calculation_2246338548142082]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([accepted_output]) / SUM([completed])' />
+            </column>
+            <column caption='Accepted Output' datatype='integer' name='[accepted_output]' role='measure' type='quantitative' />
+            <column-instance column='[user_rating]' derivation='Avg' name='[avg:user_rating:qk]' pivot='key' type='quantitative' />
+            <column caption='Completed' datatype='integer' name='[completed]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='None' name='[none:date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[team]' derivation='None' name='[none:team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[workflow]' derivation='None' name='[none:workflow:nk]' pivot='key' type='nominal' />
+            <column caption='Sessions' datatype='integer' name='[sessions]' role='measure' type='quantitative' />
+            <column-instance column='[accepted_output]' derivation='Sum' name='[sum:accepted_output:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[completed]' derivation='Sum' name='[sum:completed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sessions]' derivation='Sum' name='[sum:sessions:qk]' pivot='key' type='quantitative' />
+            <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+            <column caption='User Rating' datatype='real' name='[user_rating]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2246338548142082]' derivation='User' name='[usr:Calculation_2246338548142082:qk]' pivot='key' type='quantitative' />
+            <column caption='Workflows' datatype='string' name='[workflow]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' included-values='in-range'>
+            <min>#2026-08-04#</min>
+            <max>#2026-08-07#</max>
+          </filter>
+          <computed-sort column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' direction='DESC' using='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]' />
+          <slices>
+            <column>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:team:nk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[avg:user_rating:qk]' />
+              <color column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:accepted_output:qk]' />
+              <text column='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:completed:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]</rows>
+        <cols>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]</cols>
+        <annotations>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='178'>
+            <formatted-text>
+              <run fontcolor='#757575'>Team: </run>
+              <run bold='true'><![CDATA[<[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:team:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#757575'>Workflows: </run>
+              <run bold='true'><![CDATA[<[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#757575'>Avg. User Rating: </run>
+              <run bold='true'><![CDATA[<[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[avg:user_rating:qk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#757575'>Accepted Output: </run>
+              <run bold='true'><![CDATA[<[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:accepted_output:qk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#757575'>Sessions: </run>
+              <run bold='true'><![CDATA[<[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:sessions:qk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#757575'>Percentage of Accepted Output: </run>
+              <run bold='true'><![CDATA[<[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]>]]></run>
+              <run>Æ&#10;</run>
+              <run bold='true'>   Traffic spike from demo account</run>
+              <run>Æ&#10;</run>
+              <run bold='true'>Excluded from &quot;Sheet 2&quot; comparison</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[avg:user_rating:qk]</field>
+                      <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:team:nk]</field>
+                      <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]</field>
+                      <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:accepted_output:qk]</field>
+                      <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[sum:sessions:qk]</field>
+                      <field>[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[usr:Calculation_2246338548142082:qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>4.2428571428571429</value>
+                    <value>&quot;Sales&quot;</value>
+                    <value>&quot;Lead summary&quot;</value>
+                    <value>273</value>
+                    <value>392</value>
+                    <value>0.6964285714285714</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='27' y='28' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{011E40D3-4CD3-4E68-8C23-B6FCD9CE4616}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>SignalDesk Workflows and Their Change in Quality</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='product_usage_events' name='federated.1ewz4xw0vbg5wa1bbx9ki12lc081' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ewz4xw0vbg5wa1bbx9ki12lc081'>
+        <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+        <column-instance column='[date]' derivation='None' name='[none:date:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98100' id='24' param='vert' type-v2='layout-flow' w='98824' x='588' y='950'>
+            <zone h='4988' id='25' type-v2='title' w='98824' x='588' y='950'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='93112' id='22' type-v2='layout-basic' w='98824' x='588' y='5938'>
+              <zone h='93112' id='17' param='vert' type-v2='layout-flow' w='89521' x='588' y='5938'>
+                <zone h='93112' id='7' param='horz' type-v2='layout-flow' w='89521' x='588' y='5938'>
+                  <zone h='93112' id='5' type-v2='layout-basic' w='89521' x='588' y='5938'>
+                    <zone h='93112' id='3' name='Sheet 1' w='33891' x='588' y='5938'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='93112' id='18' name='Sheet 2' w='29082' x='34479' y='5938'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='93112' id='20' name='Sheet 2 (With Traffic Spike)' w='26548' x='63561' y='5938'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='93112' id='21' param='vert' type-v2='layout-flow' w='9303' x='90109' y='5938'>
+                <zone h='10214' id='9' name='Sheet 1' pane-specification-id='11' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' type-v2='color' w='9303' x='90109' y='5938'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='8195' id='8' name='Sheet 1' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9303' x='90109' y='16152'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='8195' id='19' name='Sheet 2' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9303' x='90109' y='24347'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>SignalDesk Workflows and Their Change in Quality</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1150' minheight='1150' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98100' id='30' param='vert' type-v2='layout-flow' w='99048' x='476' y='950'>
+                <zone h='4988' id='25' type-v2='title' w='99048' x='476' y='950'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8195' id='8' name='Sheet 1' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9323' x='90201' y='16152'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='93112' id='3' is-fixed='true' name='Sheet 1' w='33969' x='476' y='5938'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10214' id='9' name='Sheet 1' pane-specification-id='11' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' type-v2='color' w='9323' x='90201' y='5938'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8195' id='19' name='Sheet 2' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='9323' x='90201' y='24347'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='93112' id='18' is-fixed='true' name='Sheet 2' w='29149' x='34445' y='5938'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='93112' id='20' is-fixed='true' name='Sheet 2 (With Traffic Spike)' w='26607' x='63594' y='5938'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{76863F8D-394A-4960-B1E2-5430EB2BD976}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='11' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BE372750-4A19-4488-A92F-567E717ADA3B}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DA812291-1C08-4873-A6DB-99B921D96899}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2 (With Traffic Spike)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:date:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='2' param='[federated.1ewz4xw0vbg5wa1bbx9ki12lc081].[none:workflow:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C494BEBE-326F-42CD-A023-CA20CF812329}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Sheet 2 (With Traffic Spike)'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='20' />
+      <device-preview visible='true' />
+      <simple-id uuid='{20F651B0-FC1B-4D20-ACBC-3BEB4E5FD826}' />
+    </window>
+  </windows>
+</workbook>
