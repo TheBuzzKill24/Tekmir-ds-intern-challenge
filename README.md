@@ -2,7 +2,7 @@
 ## Track Chosen
 ### Track A: Fictional Domain Packet
 ## What I Built
-### I built a dashboard that compares different workflows both before and after changes were made. for each workflow, it measures the percentage of accepted outputs out of the total sessions completed and the average user rating. Note that there is another graph that also shows different workflows after changes, but that is with the traffic spike (refer to One Prompt, Workflow, Or Moment That Helped located in [AI-Note.md](https://github.com/TheBuzzKill24/Tekmir-ds-intern-challenge/blob/main/AI-Note.md)).
+### I built a dashboard in Tableau that compares different workflows both before and after changes were made. for each workflow, it measures the percentage of accepted outputs out of the total sessions completed and the average user rating. Note that there is another graph that also shows different workflows after changes, but that is with the traffic spike (refer to One Prompt, Workflow, Or Moment That Helped located in [AI-Note.md](https://github.com/TheBuzzKill24/Tekmir-ds-intern-challenge/blob/main/AI-Note.md)).
 ## Who It Is For
 ### This is for the SignalDesk team to look and see how the changes affected the overall user experience to determine further action.
 ## Data Or Source Used
